@@ -1,14 +1,39 @@
-Które stacje są najpopularniejsze?
 
-Skąd dokąd najczęściej się jeździ w zależności od dnia i godziny?
 
-Ile średnio trwa jazda?
+--------------------------------------------------------------------------------------------------------------------------------------
 
-Czy ludzie jeżdżą szybciej w weekendy czy w tygodniu?
 
-Jaki jest stosunek liczby przejazdów użytkowników z rocznym abonamentem do użytkowników jednorazowych? Jak zmienia się ten stosunek w trakcie roku?
+1.Które stacje są najpopularniejsze?
 
-W jakich godzinach jeździ się najwięcej?
+2.Skąd dokąd najczęściej się jeździ w zależności od dnia i godziny?
 
-Jak często i szybko jeździ się zależnie od wieku i płci?
+3.Ile średnio trwa jazda?
+
+4.Czy ludzie jeżdżą szybciej w weekendy czy w tygodniu?
+
+5.Jaki jest stosunek liczby przejazdów użytkowników z rocznym abonamentem do użytkowników jednorazowych? Jak zmienia się ten stosunek w trakcie roku?
+
+6.W jakich godzinach jeździ się najwięcej?
+
+7.Jak często i szybko jeździ się zależnie od wieku i płci?
+ 
+8. Jak dużo rowerów jest użytych w zależności od dnia ( na podstawie bikeid)
+
+9. Jak temperatura i opad deszczu wpływa na ilość wypożyczeń rowerków
+
+10. Jak odległość ( euklidesowa bo takie realne chyba będzie cieżko) od centrum miasta wpływa na ilość wypożyczeń
+
+11. Czy większe zagęszczenie stacji w miejscu wypożyczenia wpływa na krótszy czas przejazdu
+
+// Dodatkowo: 
+1. wziąc mapę nowego jorku i w ggplocie pozaznaczać stację i je pokolorować
+2. mozemy jakas prostą regresję liniową na deser zrobić jak się uda (np x <- temperatura, deszcz, dzien tygodnia) | y <- ilosc wypozyczonych rowerkow
+
+----------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
 
