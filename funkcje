@@ -1,0 +1,73 @@
+
+options(stringsAsFactors = FALSE)
+library(readr)
+library(dplyr)
+
+##------ 1 ------##
+
+popular <- function(data){
+  start <- data %>%
+    select(start.station.name) %>%
+    na.omit %>%
+    group_by(start.station.name) %>%
+    summarise(count = n()) %>%
+    arrange(desc(count))
+  end <- data %>%
+    select(end.station.name) %>%
+    na.omit %>%
+    group_by(end.station.name) %>%
+    summarise(count = n()) %>%
+    arrange(desc(count))
+  razem <- start %>%
+    inner_join(end, by = c("start.station.name" = "end.station.name")) %>%
+    mutate(total = count.x + count.y) %>%
+    arrange(desc(total)) %>%
+    select(station.name = start.station.name, total)
+}
+
+##------ 2 ------##
+
+where <- function(data){
+  w <- data %>%
+    mutate(date = as.Date(starttime),
+           weekday = weekdays.Date(date),
+           from_to = paste(start.station.name, "-", end.station.name),
+           hour = substr(starttime, start = 12, stop = 13)) %>%
+    select(from_to, weekday, hour)
+  top <- w %>%
+    group_by(from_to) %>%
+    summarise(count = n()) %>%
+    arrange(desc(count))
+  week <- w %>%
+    filter(weekday %in% list("poniedziałek", "wtorek", "środa", "czwartek", "piątek")) %>%
+    group_by(from_to) %>% 
+    summarise(count = n()) %>%
+    arrange(desc(count))
+  weekend <- w %>%
+    filter(weekday %in% list("sobota", "niedziela")) %>%
+    group_by(from_to) %>% 
+    summarise(count = n()) %>%
+    arrange(desc(count))
+  hour <- w %>%
+    group_by(hour, from_to) %>%
+    summarise(count = n()) %>%
+    arrange(hour, desc(count))
+}
+
+y <- where(data)
+
+
+
+##------ 3 ------##
+
+time <- function(data){
+  data["starttime"] <- lapply(data["starttime"], as.Date)
+  t <- data %>%
+    select(tripduration, starttime) %>%
+    mutate(weekday = weekdays.Date(starttime)) %>%
+    group_by(weekday) %>%
+    summarise(av.s = mean(tripduration),
+              av.m = av.s/60)
+    
+  srednia <- sum(data["tripduration"])/(length(data)*60)
+}
