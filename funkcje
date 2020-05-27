@@ -95,3 +95,23 @@ time <- function(data){
     
   srednia <- sum(data["tripduration"])/(length(data)*60)
 }
+
+
+  ##------- 4 --------- ##
+  function_4 <- function(dane)
+{
+  pierwsza <- dane %>%
+    mutate(data = as.Date(starttime),
+           weekday = weekdays.Date(data)) %>%
+    select(weekday, tripduration)
+  dla_weekendu <- pierwsza %>% 
+    filter(weekday %in% c('Sunday', 'Saturday'))
+  dla_tygodnia <- pierwsza %>% 
+    filter(weekday %in% c('Monday','Tuesday','Wednesday','Thursday','Friday'))
+  sek_w <- sum(dla_weekendu$tripduration)
+  sek_tydzien <- sum(dla_tygodnia$tripduration)
+  
+  return (c(sek_w, sek_tydzien))
+    
+}
+
