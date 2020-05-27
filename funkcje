@@ -4,11 +4,11 @@ library(readr)
 library(dplyr)
 
 ##------ 1 ------##
+## nie wiem jak tu usunac te nulle
 
 popular <- function(data){
   start <- data %>%
     select(start.station.name) %>%
-    na.omit %>%
     group_by(start.station.name) %>%
     summarise(count = n()) %>%
     arrange(desc(count))
