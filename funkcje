@@ -14,7 +14,6 @@ popular <- function(data){
     arrange(desc(count))
   end <- data %>%
     select(end.station.name) %>%
-    na.omit %>%
     group_by(end.station.name) %>%
     summarise(count = n()) %>%
     arrange(desc(count))
