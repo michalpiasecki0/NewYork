@@ -140,3 +140,17 @@ usertype <- function(data){
     select(hours, count)
   return(x)
 }
+  ##---------- 8 ------------- ##
+  function_8 <- function(dane)
+{
+  pomocnicza <- dane %>% 
+    mutate(days = substr(starttime,9,10)) %>%
+    group_by(days,bikeid) %>%
+    summarise(count = n()) %>%
+    select(days, bikeid, count)
+  final <- pomocnicza %>%
+    group_by(days) %>%
+    summarise(liczba = n()) %>%
+    select(days, liczba)
+  return(final) 
+}
