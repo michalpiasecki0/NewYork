@@ -24,6 +24,30 @@ popular <- function(data){
     select(station.name = start.station.name, total)
 }
 
+CHYBA POPRAWIONE tylko jakos brzydko że niespójnie
+popular <- function(data){
+  start <- data %>%
+    select(start.station.name) %>%
+    group_by(start.station.name) %>%
+    summarise(count = n()) %>%
+    arrange(desc(count))
+  end <- data %>%
+    select(end.station.name) %>%
+    group_by(end.station.name) %>%
+    summarise(count = n()) %>%
+    arrange(desc(count))
+  razem <- start %>%
+    full_join(end, by = c("start.station.name" = "end.station.name"))
+  razem$count.x <- replace_na(razem$count.x, 0)
+  razem$count.y <- replace_na(razem$count.y, 0)
+  razem <- razem %>%
+    mutate(total = count.x + count.y) %>%
+    arrange(desc(total)) %>%
+    select(station.name = start.station.name, total)
+  return (razem)
+  }
+
+
 ##------ 2 ------##
 
 where <- function(data){
