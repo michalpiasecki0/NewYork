@@ -111,9 +111,24 @@ time <- function(data){
   sek_w <- sum(dla_weekendu$tripduration)
   sek_tydzien <- sum(dla_tygodnia$tripduration)
   
-  return (c(sek_w, sek_tydzien))
-    
+  return (c(sek_w, sek_tydzien))    
 }
+
+##------ 5 ------##
+
+usertype <- function(data){
+ x <- data %>%
+   select(usertype, starttime) %>%
+   mutate(date = as.Date(starttime),
+          weekday = weekdays.Date(date)) %>%
+   group_by(weekday, usertype) %>%
+   summarise(count = n()) %>%
+   spread(usertype, count) %>%
+   mutate(Customer.percent = 100 * Customer / (Customer + Subscriber),
+          Subscriber.percent = 100 * Subscriber / (Customer + Subscriber))
+ x
+}
+
 
    ##------------ 6 ---------------- ##
    function_6 <- function(dane)
