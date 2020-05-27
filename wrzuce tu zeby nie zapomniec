@@ -4,3 +4,14 @@ moze sie przydac zeby wczytac duzo ramek danych pozniej:
 files <- list.files(pattern = "file_.*csv")
 df_list <- lapply(files,read_csv)
 df <- bind_rows(df_list)
+
+
+pakiet gmt
+
+geodist(Nfrom, Efrom, Nto, Eto, units="km")
+
+Nfrom	= latitude of origin.
+Efrom	= longitude of origin.
+Nto = latitude of destination.
+Eto	= longitude of destination.
+units	= how distance is measured: "km" for kilometres, "nm" for nautical miles.
