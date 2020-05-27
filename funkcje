@@ -115,3 +115,13 @@ time <- function(data){
     
 }
 
+   ##------------ 6 ---------------- ##
+   function_6 <- function(dane)
+{
+  x <- dane %>%
+    mutate(hours = substr(starttime,12,13)) %>%
+    group_by(hours) %>%
+    summarise(count = n()) %>%
+    select(hours, count)
+  return(x)
+}
