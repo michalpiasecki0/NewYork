@@ -186,3 +186,20 @@ f9 <- function(data1, data2){
     left_join(pogoda, by = DATE)
   rowery
 }
+
+
+
+##------ 10 ------##
+
+f10 <- function(data){
+  timessquarelat <- 40.757945
+  timessquarelong <- -73.985604
+  x <- data %>%
+    select(start.station.latitude, start.station.longitude, start.station.name) %>%
+    mutate(odl_od_timessquare = geodist(start.station.latitude, start.station.longitude, 
+                                        timessquarelat, timessquarelong, units = "km")) %>%
+    group_by(odl_od_timessquare) %>%
+    summarise(count = n()) %>%
+    arrange(desc(count))
+  x
+}
