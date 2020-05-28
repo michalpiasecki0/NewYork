@@ -5,16 +5,17 @@ library(dplyr)
 library(tidyr)
 
 ##------ 1 ------##
-## nie wiem jak tu usunac te nulle
 
 f1 <- function(data){
   start <- data %>%
     select(start.station.name) %>%
+    na.omit %>%
     group_by(start.station.name) %>%
     summarise(count = n()) %>%
     arrange(desc(count))
   end <- data %>%
     select(end.station.name) %>%
+    filter(end.station.name != "NULL") %>%
     group_by(end.station.name) %>%
     summarise(count = n()) %>%
     arrange(desc(count))
@@ -23,6 +24,7 @@ f1 <- function(data){
     mutate(total = count.x + count.y) %>%
     arrange(desc(total)) %>%
     select(station.name = start.station.name, total)
+  return(razem)
 }
 
 CHYBA POPRAWIONE tylko jakos brzydko że niespójnie
