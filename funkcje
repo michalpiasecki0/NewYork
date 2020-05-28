@@ -7,7 +7,7 @@ library(tidyr)
 ##------ 1 ------##
 ## nie wiem jak tu usunac te nulle
 
-popular <- function(data){
+f1 <- function(data){
   start <- data %>%
     select(start.station.name) %>%
     group_by(start.station.name) %>%
@@ -26,7 +26,7 @@ popular <- function(data){
 }
 
 CHYBA POPRAWIONE tylko jakos brzydko że niespójnie
-popular <- function(data){
+f1 <- function(data){
   start <- data %>%
     select(start.station.name) %>%
     group_by(start.station.name) %>%
@@ -51,7 +51,7 @@ popular <- function(data){
 
 ##------ 2 ------##
 
-where <- function(data){
+f2 <- function(data){
   w <- data %>%
     mutate(date = as.Date(starttime),
            weekday = weekdays.Date(date),
@@ -78,13 +78,12 @@ where <- function(data){
     arrange(hour, desc(count))
 }
 
-y <- where(data)
 
 
 
 ##------ 3 ------##
 
-time <- function(data){
+f3 <- function(data){
   data["starttime"] <- lapply(data["starttime"], as.Date)
   t <- data %>%
     select(tripduration, starttime) %>%
@@ -116,7 +115,7 @@ time <- function(data){
 
 ##------ 5 ------##
 
-usertype <- function(data){
+f4 <- function(data){
  x <- data %>%
    select(usertype, starttime) %>%
    mutate(date = as.Date(starttime),
