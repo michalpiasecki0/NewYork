@@ -140,6 +140,23 @@ usertype <- function(data){
     select(hours, count)
   return(x)
 }
+
+
+##------ 7 ------##
+
+f7 <- function(data){
+  x <- data %>%
+    select(birth.year) %>%
+    filter(birth.year != "NULL") %>%
+    mutate(age = 2020 - as.integer(birth.year)) %>%
+    group_by(age) %>%
+    summarise(count = n()) %>%
+    arrange(desc(count))
+  x
+}
+
+
+
   ##---------- 8 ------------- ##
   function_8 <- function(dane)
 {
