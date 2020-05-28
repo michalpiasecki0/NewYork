@@ -1,0 +1,807 @@
+"","station.name","total"
+"1","Pershing Square North",29474
+"2","West St & Chambers St",27573
+"3","12 Ave & W 40 St",27126
+"4","Broadway & E 22 St",24830
+"5","8 Ave & W 31 St",24028
+"6","Broadway & W 60 St",22990
+"7","Christopher St & Greenwich St",22489
+"8","E 17 St & Broadway",21559
+"9","Broadway & E 14 St",21448
+"10","W 33 St & 7 Ave",21434
+"11","South End Ave & Liberty St",20513
+"12","W 20 St & 11 Ave",20384
+"13","W 18 St & 6 Ave",19307
+"14","Carmine St & 6 Ave",19071
+"15","Central Park S & 6 Ave",18461
+"16","W 22 St & 10 Ave",17918
+"17","Lafayette St & E 8 St",17730
+"18","Washington St & Gansevoort St",17687
+"19","W 31 St & 7 Ave",17510
+"20","Pier 40 - Hudson River Park",17356
+"21","Cleveland Pl & Spring St",17323
+"22","Broadway & W 29 St",17086
+"23","University Pl & E 14 St",16796
+"24","1 Ave & E 16 St",16638
+"25","W 22 St & 8 Ave",16532
+"26","Greenwich Ave & 8 Ave",16482
+"27","Grand St & Elizabeth St",16463
+"28","W 41 St & 8 Ave",16350
+"29","W 38 St & 8 Ave",16305
+"30","W 34 St & 11 Ave",16287
+"31","Cooper Square & Astor Pl",16238
+"32","Vesey Pl & River Terrace",16189
+"33","11 Ave & W 27 St",16119
+"34","E 24 St & Park Ave S",15978
+"35","Broadway & W 25 St",15938
+"36","Grand Army Plaza & Central Park S",15926
+"37","E 13 St & Avenue A",15902
+"38","E 10 St & Avenue A",15768
+"39","North Moore St & Greenwich St",15629
+"40","Little West St & 1 Pl",15615
+"41","Great Jones St",15161
+"42","8 Ave & W 33 St",14837
+"43","MacDougal St & Prince St",14808
+"44","St Marks Pl & 1 Ave",14694
+"45","Allen St & Stanton St",14380
+"46","E 7 St & Avenue A",14144
+"47","Broadway & W 41 St",14069
+"48","E 47 St & Park Ave",14019
+"49","Gansevoort St & Hudson St",13964
+"50","E 32 St & Park Ave",13807
+"51","W 25 St & 6 Ave",13807
+"52","Broadway & W 37 St",13785
+"53","W 17 St & 8 Ave",13720
+"54","Central Park West & W 72 St",13612
+"55","Greenwich St & W Houston St",13575
+"56","W 24 St & 7 Ave",13561
+"57","Canal St & Rutgers St",13371
+"58","7 Ave & Central Park South",13156
+"59","W 20 St & 7 Ave",13152
+"60","Barrow St & Hudson St",13142
+"61","FDR Drive & E 35 St",13103
+"62","W 15 St & 7 Ave",13070
+"63","Kent Ave & N 7 St",13001
+"64","Broadway & W 49 St",12958
+"65","E 16 St & 5 Ave",12835
+"66","Centre St & Chambers St",12795
+"67","W 52 St & 6 Ave",12787
+"68","Lafayette St & Jersey St",12785
+"69","W 16 St & The High Line",12735
+"70","W 4 St & 7 Ave S",12675
+"71","W 26 St & 8 Ave",12672
+"72","South St & Gouverneur Ln",12430
+"73","E 11 St & 1 Ave",12395
+"74","Mott St & Prince St",12330
+"75","Central Park West & W 68 St",12300
+"76","E 20 St & 2 Ave",12286
+"77","9 Ave & W 45 St",12268
+"78","11 Ave & W 41 St",12249
+"79","5 Ave & E 29 St",12164
+"80","W Broadway & Spring Street",12126
+"81","E 39 St & 2 Ave",12123
+"82","St Marks Pl & 2 Ave",12039
+"83","1 Ave & E 18 St",12005
+"84","E 15 St & 3 Ave",11958
+"85","E 33 St & 1 Ave",11865
+"86","11 Ave & W 59 St",11849
+"87","5 Ave & E 73 St",11837
+"88","E 2 St & Avenue B",11834
+"89","E 23 St & 1 Ave",11833
+"90","E 4 St & 2 Ave",11796
+"91","Lexington Ave & E 26 St",11752
+"92","2 Ave & E 31 St",11737
+"93","W 27 St & 7 Ave",11724
+"94","6 Ave & Canal St",11722
+"95","1 Ave & E 68 St",11703
+"96","E 48 St & 5 Ave",11666
+"97","Mercer St & Bleecker St",11623
+"98","E 25 St & 2 Ave",11543
+"99","Metropolitan Ave & Bedford Ave",11532
+"100","5 Ave & E 88 St",11479
+"101","E 2 St & Avenue A",11463
+"102","Columbus Ave & W 72 St",11455
+"103","8 Ave & W 52 St",11427
+"104","Forsyth St & Broome St",11385
+"105","Allen St & Rivington St",11372
+"106","W 20 St & 8 Ave",11346
+"107","Clinton St & Grand St",11333
+"108","W 26 St & 10 Ave",11288
+"109","S 5 Pl & S 5 St",11216
+"110","Broadway & W 53 St",11117
+"111","Mercer St & Spring St",10998
+"112","E 20 St & FDR Drive",10992
+"113","W 15 St & 10 Ave",10972
+"114","Forsyth St & Canal St",10948
+"115","W 27 St & 10 Ave",10944
+"116","E 6 St & Avenue B",10940
+"117","E 2 St & 2 Ave",10906
+"118","W 13 St & 7 Ave",10816
+"119","E 31 St & 3 Ave",10806
+"120","E 20 St & Park Ave",10803
+"121","Stanton St & Chrystie St",10676
+"122","LaGuardia Pl & W 3 St",10612
+"123","W 52 St & 5 Ave",10588
+"124","6 Ave & Broome St",10565
+"125","Jay St & York St",10557
+"126","W 43 St & 10 Ave",10547
+"127","Allen St & Hester St",10518
+"128","W 42 St & 8 Ave",10333
+"129","Broadway & Battery Pl",10329
+"130","Old Fulton St",10294
+"131","N 6 St & Bedford Ave",10173
+"132","Greenwich Ave & Charles St",10164
+"133","Amsterdam Ave & W 73 St",10153
+"134","Sullivan St & Washington Sq",10151
+"135","1 Ave & E 78 St",10113
+"136","E 39 St & 3 Ave",10100
+"137","W 45 St & 8 Ave",10076
+"138","Lispenard St & Broadway",10061
+"139","1 Ave & E 62 St",10001
+"140","W 47 St & 10 Ave",9820
+"141","W 46 St & 11 Ave",9808
+"142","Norfolk St & Broome St",9727
+"143","W 52 St & 11 Ave",9722
+"144","E 11 St & 2 Ave",9681
+"145","Howard St & Centre St",9657
+"146","W 11 St & 6 Ave",9619
+"147","W 49 St & 8 Ave",9578
+"148","Murray St & Greenwich St",9575
+"149","E 58 St & 3 Ave",9555
+"150","Fulton St & Broadway",9552
+"151","W 37 St & 5 Ave",9469
+"152","Central Park West & W 85 St",9434
+"153","Bank St & Hudson St",9429
+"154","E 12 St & 3 Ave",9402
+"155","W 13 St & 5 Ave",9396
+"156","Perry St & Bleecker St",9383
+"157","Watts St & Greenwich St",9352
+"158","E 9 St & Avenue C",9310
+"159","Pershing Square South",9282
+"160","W 37 St & 10 Ave",9225
+"161","S 4 St & Wythe Ave",9179
+"162","E 52 St & 2 Ave",9126
+"163","E 30 St & Park Ave S",9069
+"164","9 Ave & W 28 St",9050
+"165","Bank St & Washington St",9029
+"166","W 21 St & 6 Ave",9028
+"167","Peck Slip & Front St",9020
+"168","W 63 St & Broadway",8907
+"169","Wythe Ave & Metropolitan Ave",8881
+"170","E 11 St & Avenue B",8861
+"171","Broadway & W 38 St",8839
+"172","West Drive & Prospect Park West",8756
+"173","Suffolk St & Stanton St",8751
+"174","9 Ave & W 18 St",8745
+"175","Liberty St & Broadway",8723
+"176","W 42 St & Dyer Ave",8721
+"177","Central Park W & W 96 St",8666
+"178","W 45 St & 6 Ave",8638
+"179","University Pl & E 8 St",8592
+"180","Central Park North & Adam Clayton Powell Blvd",8547
+"181","E 41 St & Madison Ave",8486
+"182","Barclay St & Church St",8464
+"183","MacDougal St & Washington Sq",8431
+"184","Hanson Pl & Ashland Pl",8418
+"185","Lexington Ave & E 29 St",8417
+"186","E 19 St & 3 Ave",8382
+"187","Front St & Washington St",8346
+"188","W 53 St & 10 Ave",8242
+"189","Bergen St & Smith St",8235
+"190","Milton St & Franklin St",8233
+"191","Murray St & West St",8229
+"192","E 16 St & Irving Pl",8191
+"193","1 Ave & E 30 St",8132
+"194","5 Ave & E 78 St",7958
+"195","Riverside Blvd & W 67 St",7908
+"196","Bayard St & Baxter St",7857
+"197","E 55 St & Lexington Ave",7845
+"198","W 44 St & 5 Ave",7821
+"199","Rivington St & Chrystie St",7819
+"200","Atlantic Ave & Furman St",7798
+"201","E 27 St & 1 Ave",7741
+"202","W 67 St & Broadway",7656
+"203","E 53 St & 3 Ave",7602
+"204","Central Park West & W 76 St",7526
+"205","E 10 St & 5 Ave",7513
+"206","Division St & Bowery",7489
+"207","South St & Whitehall St",7404
+"208","Stanton St & Norfolk St",7389
+"209","Riverside Dr & W 72 St",7343
+"210","1 Ave & E 44 St",7325
+"211","W 54 St & 9 Ave",7320
+"212","E 2 St & Avenue C",7240
+"213","Henry St & Grand St",7220
+"214","E 25 St & 1 Ave",7217
+"215","Washington Pl & Broadway",7117
+"216","Lenox Ave & W 111 St",7097
+"217","Bus Slip & State St",7071
+"218","E 45 St & 3 Ave",7063
+"219","E 12 St & 4 Av",7029
+"220","E 59 St & Madison Ave",7014
+"221","S 3 St & Bedford Ave",6963
+"222","Bond St & Fulton St",6961
+"223","E 53 St & Madison Ave",6892
+"224","E 43 St & 5 Ave",6868
+"225","W 70 St & Amsterdam Ave",6816
+"226","Front St & Maiden Ln",6812
+"227","Grand Army Plaza & Plaza St West",6791
+"228","E 47 St & 2 Ave",6783
+"229","W 59 St & 10 Ave",6781
+"230","Broadway & W 51 St",6711
+"231","Hudson St & Reade St",6697
+"232","Washington Pl & 6 Ave",6679
+"233","Columbus Ave & W 95 St",6548
+"234","Rivington St & Ridge St",6520
+"235","Fulton St & Adams St",6495
+"236","Amsterdam Ave & W 79 St",6495
+"237","E 84 St & 3 Ave",6494
+"238","E 6 St & Avenue D",6487
+"239","E 72 St & York Ave",6478
+"240","W 64 St & Thelonious Monk Circle",6469
+"241","Driggs Ave & N 9 St",6456
+"242","Amsterdam Ave & W 82 St",6413
+"243","Berry St & N 8 St",6360
+"244","W 56 St & 10 Ave",6248
+"245","W 95 St & Broadway",6238
+"246","Broadway & Berry St",6220
+"247","Queens Plaza North & Crescent St",6195
+"248","Pike St & E Broadway",6131
+"249","W 35 St & Dyer Ave",6117
+"250","Bedford Ave & Nassau Ave",6085
+"251","Court St & State St",6030
+"252","Clark St & Henry St",5980
+"253","Franklin St & W Broadway",5978
+"254","W 82 St & Central Park West",5938
+"255","Old Slip & Front St",5926
+"256","Avenue C & E 18 St",5826
+"257","Central Park West & W 100 St",5794
+"258","W 50 St & 9 Ave",5790
+"259","E 51 St & Lexington Ave",5671
+"260","Cadman Plaza E & Red Cross Pl",5624
+"261","E 74 St & 1 Ave",5624
+"262","E 5 St & Avenue C",5613
+"263","Madison Ave & E 82 St",5611
+"264","Lexington Ave & E 36 St",5607
+"265","Vernon Blvd & 50 Ave",5558
+"266","2 Ave & E 96 St",5538
+"267","Schermerhorn St & Bond St",5537
+"268","Clinton Ave & Myrtle Ave",5525
+"269","5 Ave & E 103 St",5517
+"270","Fulton St & William St",5497
+"271","E 48 St & 3 Ave",5489
+"272","W 84 St & Columbus Ave",5485
+"273","2 Ave & E 72 St",5470
+"274","Lawrence St & Willoughby St",5467
+"275","Dean St & 4 Ave",5451
+"276","DeKalb Ave & Hudson Ave",5404
+"277","Leonard St & Church St",5395
+"278","Cherry St",5387
+"279","N 12 St & Bedford Ave",5376
+"280","Graham Ave & Conselyea St",5347
+"281","W 43 St & 6 Ave",5337
+"282","Kent Ave & S 11 St",5314
+"283","Meserole Ave & Manhattan Ave",5314
+"284","Greenpoint Ave & Manhattan Ave",5302
+"285","Soissons Landing",5264
+"286","Willoughby St & Fleet St",5259
+"287","E 51 St & 1 Ave",5237
+"288","Union Ave & N 12 St",5215
+"289","3 St & Prospect Park West",5213
+"290","Pike St & Monroe St",5195
+"291","Grand St & Havemeyer St",5181
+"292","West Thames St",5159
+"293","Avenue D & E 3 St",5152
+"294","Hicks St & Montague St",5144
+"295","W 84 St & Broadway",5140
+"296","Spruce St & Nassau St",5140
+"297","W 15 St & 6 Ave",5130
+"298","Pearl St & Hanover Square",5124
+"299","Nassau Ave & Russell St",5106
+"300","Jay St & Tech Pl",5092
+"301","E 84 St & 1 Ave",5087
+"302","Park Ave & E 124 St",5081
+"303","Maiden Ln & Pearl St",5063
+"304","W 76 St & Columbus Ave",5032
+"305","Catherine St & Monroe St",5031
+"306","Reade St & Broadway",5022
+"307","E 58 St &  1 Ave (NW Corner)",5008
+"308","W 100 St & Broadway",4996
+"309","Lexington Ave & E 63 St",4961
+"310","W 89 St & Columbus Ave",4958
+"311","Riverside Dr & W 78 St",4953
+"312","Clinton St & Joralemon St",4887
+"313","Riverside Dr & W 82 St",4867
+"314","Broadway & Roebling St",4863
+"315","Centre St & Worth St",4837
+"316","E 91 St & 2 Ave",4785
+"317","7 Ave & Park Pl",4754
+"318","McGuinness Blvd & Eagle St",4684
+"319","St James Pl & Oliver St",4655
+"320","Yankee Ferry Terminal",4604
+"321","William St & Pine St",4600
+"322","Huron St & Franklin St",4593
+"323","E 88 St & 1 Ave",4573
+"324","Berkeley Pl & 7 Ave",4563
+"325","Park Pl & Church St",4544
+"326","Plaza St West & Flatbush Ave",4541
+"327","Madison St & Clinton St",4541
+"328","W 106 St & Central Park West",4540
+"329","E 43 St & 2 Ave",4491
+"330","Henry St & Atlantic Ave",4487
+"331","Avenue D & E 8 St",4478
+"332","Water - Whitehall Plaza",4468
+"333","W 78 St & Broadway",4426
+"334","E 102 St & 1 Ave",4419
+"335","Duane St & Greenwich St",4408
+"336","Metropolitan Ave & Meeker Ave",4380
+"337","5 Ave & E 63 St",4380
+"338","Frederick Douglass Blvd & W 117 St",4380
+"339","Lafayette Ave & Fort Greene Pl",4377
+"340","Columbia St & Rivington St",4373
+"341","Frederick Douglass Blvd & W 112 St",4366
+"342","5 Ave & E 93 St",4339
+"343","Broadway & Moylan Pl",4290
+"344","Carroll St & Smith St",4279
+"345","E 47 St & 1 Ave",4272
+"346","Cadman Plaza West & Montague St",4260
+"347","E 72 St & Park Ave",4258
+"348","John St & William St",4235
+"349","Roebling St & N 4 St",4213
+"350","Hope St & Union Ave",4209
+"351","Pearl St & Anchorage Pl",4202
+"352","Atlantic Ave & Fort Greene Pl",4191
+"353","DeKalb Ave & S Portland Ave",4173
+"354","Riverside Dr & W 104 St",4166
+"355","Market St & Cherry St",4161
+"356","E 89 St & 3 Ave",4161
+"357","3 Ave & Schermerhorn St",4161
+"358","46 Ave & 5 St",4148
+"359","Duffield St & Willoughby St",4131
+"360","Madison St & Montgomery St",4122
+"361","E 81 St & York Ave",4109
+"362","DeKalb Ave & Vanderbilt Ave",4098
+"363","E 81 St & 2 Ave",4043
+"364","Eastern Pkwy & Franklin Ave",4017
+"365","Prospect Park West & 8 St",3967
+"366","Bergen St & Vanderbilt Ave",3966
+"367","Pleasant Ave & E 116 St",3944
+"368","Broadway & W 56 St",3943
+"369","Harrison St & Hudson St",3933
+"370","Park Pl & Vanderbilt Ave",3920
+"371","5 Ave & 3 St",3913
+"372","Cliff St & Fulton St",3896
+"373","Adelphi St & Myrtle Ave",3866
+"374","Schermerhorn St & Court St",3857
+"375","State St & Smith St",3854
+"376","31 St & 23 Ave",3837
+"377","3 Ave & E 62 St",3820
+"378","W 74 St & Columbus Ave",3817
+"379","Riverside Dr & W 91 St",3799
+"380","Lafayette Ave & Classon Ave",3791
+"381","E 33 St & 5 Ave",3769
+"382","Congress St & Clinton St",3743
+"383","West End Ave & W 94 St",3740
+"384","Avenue D & E 12 St",3734
+"385","Devoe St & Lorimer St",3717
+"386","Cathedral Pkwy & Broadway",3716
+"387","E 110 St & Madison Ave",3688
+"388","31 St & Newtown Ave",3687
+"389","Leonard St & Nassau Ave",3674
+"390","W 87 St & Amsterdam Ave",3651
+"391","Cumberland St & Lafayette Ave",3639
+"392","Stagg St & Union Ave",3634
+"393","Stanton St & Mangin St",3634
+"394","Lafayette Ave & St James Pl",3608
+"395","St Nicholas Ave & Manhattan Ave",3595
+"396","Driggs Ave & N Henry St",3591
+"397","Graham Ave & Grand St",3579
+"398","Amsterdam Ave & W 66 St",3572
+"399","E 97 St & Madison Ave",3567
+"400","Picnic Point",3564
+"401","Macon St & Nostrand Ave",3555
+"402","Flushing Ave & Vanderbilt Ave",3553
+"403","E 84 St & Park Ave",3541
+"404","Scholes St & Manhattan Ave",3537
+"405","44 Dr & Jackson Ave",3513
+"406","Willoughby Ave & Hall St",3512
+"407","Bialystoker Pl & Delancey St",3510
+"408","Franklin Ave & Empire Blvd",3505
+"409","Lenox Ave & W 126 St",3493
+"410","Bergen St & Flatbush Ave",3477
+"411","Fulton St & Waverly Ave",3469
+"412","N 11 St & Kent Ave",3466
+"413","E 65 St & 2 Ave",3463
+"414","W 88 St & West End Ave",3439
+"415","Broad St & Bridge St",3420
+"416","3 St & 7 Ave",3407
+"417","Nassau Ave & Newell St",3394
+"418","Richardson St & N Henry St",3390
+"419","E 89 St & York Ave",3373
+"420","Douglass St & 3 Ave",3368
+"421","Emerson Pl & Myrtle Ave",3364
+"422","Front St & Gold St",3363
+"423","Franklin St & Dupont St",3348
+"424","W 92 St & Broadway",3331
+"425","W 100 St & Manhattan Ave",3320
+"426","E 75 St & 3 Ave",3307
+"427","Washington Ave & Park Ave",3280
+"428","31 St & Broadway",3272
+"429","Johnson St & Gold St",3264
+"430","E 76 St & Park Ave",3263
+"431","Henry St & Degraw St",3260
+"432","E 77 St & 3 Ave",3245
+"433","Smith St & 9 St",3243
+"434","1 Ave & E 94 St",3243
+"435","Cliff St & Fulton St (Old)",3237
+"436","Van Brunt St & Van Dyke St",3229
+"437","Driggs Ave & Lorimer St",3228
+"438","Henry St & Middagh St",3219
+"439","Lenox Ave & W 117 St",3213
+"440","Baltic St & 5 Ave",3192
+"441","Washington Park",3178
+"442","Carroll St & 6 Ave",3175
+"443","6 Ave & 9 St",3164
+"444","Lenox Ave & W 130 St",3129
+"445","Carroll St & 5 Ave",3105
+"446","Bedford Ave & Bergen St",3092
+"447","Myrtle Ave & Lewis Ave",3086
+"448","Union St & 4 Ave",3054
+"449","3 St & 3 Ave",2987
+"450","Kane St & Clinton St",2984
+"451","Underhill Ave & Lincoln Pl",2977
+"452","S Portland Ave & Hanson Pl",2974
+"453","Banker St & Meserole Ave",2956
+"454","Frederick Douglass Blvd & W 115 St",2954
+"455","34 Ave & 38 St",2950
+"456","Cadman Plaza E & Johnson St",2924
+"457","Carlton Ave & Flushing Ave",2923
+"458","S 4 St & Rodney St",2922
+"459","E 78 St & 2 Ave",2913
+"460","Fulton St & Grand Ave",2912
+"461","1 Ave & E 110 St",2885
+"462","Classon Ave & St Marks Ave",2883
+"463","Carroll St & Bond St",2869
+"464","Montrose Ave & Bushwick Ave",2847
+"465","W 106 St & Amsterdam Ave",2846
+"466","St James Pl & Pearl St",2817
+"467","E 81 St & 3 Ave",2813
+"468","Monroe St & Bedford Ave",2799
+"469","Degraw St & Smith St",2796
+"470","E 91 St & Park Ave",2794
+"471","Carlton Ave & Dean St",2791
+"472","E 82 St & East End Ave",2781
+"473","45 Rd & 11 St",2762
+"474","W 110 St & Amsterdam Ave",2735
+"475","St. Nicholas Ave & W 126 St",2735
+"476","E 58 St & 1 Ave (NE Corner)",2733
+"477","Nassau St & Navy St",2727
+"478","Bond St & Bergen St",2713
+"479","14 St & 7 Ave",2703
+"480","India St & West St",2702
+"481","Clinton St & Union St",2688
+"482","Warren St & Court St",2687
+"483","14 St & 5 Ave",2682
+"484","Fulton St & Rockwell Pl",2672
+"485","West End Ave & W 107 St",2667
+"486","E 85 St & York Ave",2667
+"487","10 St & 7 Ave",2662
+"488","Grand Ave & Bergen St",2650
+"489","Smith St & 3 St",2648
+"490","W 90 St & Amsterdam Ave",2644
+"491","Center Blvd & 51 Ave",2639
+"492","E 103 St & Lexington Ave",2635
+"493","Pacific St & Nevins St",2613
+"494","E 60 St & York Ave",2611
+"495","Graham Ave & Withers St",2609
+"496","Bayard St & Leonard St",2608
+"497","Leonard St & Maujer St",2588
+"498","Washington Ave & Greene Ave",2586
+"499","E 93 St & 2 Ave",2573
+"500","Carroll St & Columbia St",2559
+"501","Eastern Pkwy & Washington Ave",2557
+"502","Brooklyn Bridge Park - Pier 2",2557
+"503","E 68 St & 3 Ave",2549
+"504","44 Dr & 21 St",2547
+"505","St Johns Pl & Washington Ave",2532
+"506","E 88 St & Park Ave",2530
+"507","Douglass St & 4 Ave",2523
+"508","Lexington Ave & Classon Ave",2518
+"509","Union St & Nevins St",2507
+"510","Garfield Pl & 8 Ave",2500
+"511","Columbia St & Kane St",2499
+"512","Columbia St & Degraw St",2496
+"513","Dean St & Franklin Ave",2478
+"514","Madison Ave & E 99 St",2472
+"515","India St & Manhattan Ave",2463
+"516","Vernon Blvd & 47 Rd",2462
+"517","Laight St & Hudson St",2437
+"518","E 66 St & Madison Ave",2437
+"519","Wyckoff St & 3 Ave",2423
+"520","E 68 St & Madison Ave",2407
+"521","Wyckoff Av & Jefferson St",2407
+"522","W 18 St & 9 Ave",2404
+"523","Prospect Pl & 6 Ave",2384
+"524","2 Ave & E 104 St",2380
+"525","Clermont Ave & Lafayette Ave",2376
+"526","DeKalb Ave & Franklin Ave",2369
+"527","Clinton Ave & Flushing Ave",2359
+"528","Lewis Ave & Madison St",2348
+"529","Sterling Pl & Bedford Ave",2337
+"530","W 104 St & Amsterdam Ave",2336
+"531","Franklin Ave & St Marks Ave",2334
+"532","Lexington Ave & E 111 St",2333
+"533","Monroe St & Classon Ave",2329
+"534","East End Ave & E 86 St",2329
+"535","Central Park West & W 102 St",2294
+"536","3 Ave & E 72 St",2294
+"537","1 Pl & Clinton St",2293
+"538","28 St & 41 Ave",2285
+"539","Dean St & Hoyt St",2269
+"540","Underhill Ave & Pacific St",2268
+"541","4 Ave & 9 St",2251
+"542","Myrtle Ave & St Edwards St",2233
+"543","43 St & Broadway",2233
+"544","Pierrepont St & Monroe Pl",2226
+"545","Concord St & Bridge St",2224
+"546","Kosciuszko St & Tompkins Ave",2205
+"547","Clinton St & 4 Place",2188
+"548","Prospect Pl & Underhill Ave",2185
+"549","31 Ave & 34 St",2141
+"550","Lenox Ave & W 115 St",2139
+"551","Cambridge Pl & Gates Ave",2113
+"552","W 113 St & Broadway",2108
+"553","Broadway & Whipple St",2104
+"554","Division Av & Hooper St",2102
+"555","Bushwick Ave & Powers St",2097
+"556","3 Ave & E 95 St",2090
+"557","Van Brunt St & Wolcott St",2086
+"558","21 St & Queens Plaza North",2078
+"559","Monroe St & Tompkins Ave",2073
+"560","Lefferts Pl & Franklin Ave",2051
+"561","President St & Henry St",2051
+"562","Fulton St & Utica Ave",2042
+"563","Pioneer St & Van Brunt St",2039
+"564","E 115 St & Lexington Ave",2027
+"565","W 116 St & Broadway",2006
+"566","Carlton Ave & Park Ave",1995
+"567","W 107 St & Columbus Ave",1966
+"568","Berkeley Pl & 6 Ave",1961
+"569","Union Ave & Jackson St",1950
+"570","Butler St & Court St",1945
+"571","Boerum St & Broadway",1944
+"572","Amsterdam Ave & W 125 St",1938
+"573","Columbia Heights & Cranberry St",1936
+"574","E 109 St & 3 Ave",1930
+"575","Kosciuszko St & Nostrand Ave",1913
+"576","Park Pl & Franklin Ave",1906
+"577","E 106 St & Madison Ave",1893
+"578","6 Ave & 12 St",1891
+"579","Verona Pl & Fulton St",1884
+"580","Lewis Ave & Kosciuszko St",1877
+"581","E 67 St & Park Ave",1872
+"582","Court St & Nelson St",1866
+"583","Myrtle Ave & Marcy Ave",1863
+"584","6 St & 7 Ave",1862
+"585","Clermont Ave & Park Ave",1858
+"586","Adam Clayton Powell Blvd & W 123 St",1851
+"587","Graham Ave & Herbert St",1850
+"588","Mt Morris Park W & W 120 St",1837
+"589","Greene Ave & Nostrand Ave",1834
+"590","Ditmars Blvd & 19 St",1830
+"591","Adam Clayton Powell Blvd & W 126 St",1828
+"592","N 15 St & Wythe Ave",1820
+"593","Halsey St & Tompkins Ave",1818
+"594","Fulton St & Clermont Ave",1817
+"595","Cedar St & Myrtle Ave",1806
+"596","E 123 St & Lexington Ave",1799
+"597","Crescent St & Broadway",1798
+"598","7 St & 5 Ave",1797
+"599","Center Blvd & 48 Ave",1794
+"600","Kingston Ave & Herkimer St",1794
+"601","27 St & Hunter St",1790
+"602","31 Ave & Steinway St",1775
+"603","Pitt St & Stanton St",1762
+"604","Willoughby Ave & Walworth St",1751
+"605","Greene Av & Myrtle Av",1751
+"606","Degraw St & Hoyt St",1750
+"607","Steinway St & 28 Ave",1738
+"608","2 Ave & E 99 St",1705
+"609","Morningside Ave & W 123 St",1701
+"610","Putnam Ave & Throop Ave",1690
+"611","Hancock St & Bedford Ave",1678
+"612","Marcy Ave & Lafayette Ave",1662
+"613","Central Ave & Starr Street",1658
+"614","E 118 St & 3 Ave",1655
+"615","2 Ave & 36 St - Citi Bike HQ at Industry City",1652
+"616","W 120 St & Claremont Ave",1637
+"617","Astoria Park S & Shore Blvd",1628
+"618","E 114 St & 1 Ave",1624
+"619","Vernon Blvd & 31 Ave",1623
+"620","E 102 St & Park Ave",1618
+"621","Frederick Douglass Blvd & W 129 St",1614
+"622","Coffey St & Conover St",1607
+"623","7 St & 3 Ave",1604
+"624","Greene Ave & Throop Ave",1598
+"625","Sharon St & Olive St",1597
+"626","Bedford Ave & S 9 St",1592
+"627","E 118 St & 1 Ave",1591
+"628","Vernon Blvd & 10 St",1590
+"629","10 St & 5 Ave",1577
+"630","E 106 St & Lexington Ave",1575
+"631","E 106 St & 1 Ave",1571
+"632","Franklin Ave & Myrtle Ave",1559
+"633","Eckford St & Engert Ave",1558
+"634","Newtown Ave & 23 St",1547
+"635","Vernon Blvd & 30 Rd",1523
+"636","Willoughby Ave & Tompkins Ave",1521
+"637","McKibbin St & Bogart St",1517
+"638","Frost St & Meeker Ave",1514
+"639","Leonard St & Boerum St",1510
+"640","21 St & 31 Dr",1501
+"641","19 St & 24 Ave",1496
+"642","E 116 St & 2 Ave",1494
+"643","Jackson Ave & 46 Rd",1482
+"644","E 115 St & Madison Ave",1475
+"645","3 Ave & E 71 St",1470
+"646","Lorimer St & Broadway",1468
+"647","5 St & 6 Ave",1452
+"648","Union Ave & Wallabout St",1424
+"649","Pleasant Ave & E 120 St",1416
+"650","3 Ave & Carroll St",1415
+"651","Adam Clayton Powell Blvd & W 118 St",1413
+"652","Marcus Garvey Blvd & Macon St",1412
+"653","9 St & 44 Rd",1398
+"654","White St & Moore St",1393
+"655","Willoughby Ave & Wyckoff Ave",1386
+"656","Suydam St & Knickerbocker Ave",1382
+"657","Central Ave & Flushing Ave",1380
+"658","W 116 St & Amsterdam Ave",1378
+"659","28 Ave & 35 St",1365
+"660","36 Ave & 31 St",1361
+"661","Rogers Ave & Sterling St",1354
+"662","3 Ave & 14 St",1345
+"663","3 St & Hoyt St",1343
+"664","McKibbin St & Manhattan Ave",1342
+"665","E 55 St & 3 Ave",1340
+"666","24 St & 41 Ave",1332
+"667","2 Ave & E 122 St",1329
+"668","E 55 St & 2 Ave",1328
+"669","Lewis Ave & Decatur St",1296
+"670","28 Ave & 44 St",1294
+"671","Humboldt St & Varet St",1293
+"672","E 118 St & Madison Ave",1286
+"673","31 St & Astoria Blvd",1284
+"674","35 Ave & 37 St",1259
+"675","Putnam Ave & Nostrand Ave",1256
+"676","Adam Clayton Powell Blvd & W 115 St",1249
+"677","Amsterdam Ave & W 119 St",1248
+"678","E 128 St & Madison Ave",1239
+"679","5 Ave & E 126 St",1238
+"680","E 97 St & 3 Ave",1231
+"681","Pulaski St & Marcus Garvey Blvd",1225
+"682","Tompkins Ave & Hopkins St",1225
+"683","49 Ave & 21 St",1224
+"684","31 Ave & 30 St",1219
+"685","Steinway St & 23 Ave",1213
+"686","35 St & Broadway",1208
+"687","28 St & 38 Ave",1190
+"688","Park Ave & Marcus Garvey Blvd",1190
+"689","W 16 St & 8 Ave",1186
+"690","Vernon Blvd & 41 Rd",1177
+"691","Broadway & W 122 St",1167
+"692","24 Ave & 29 St",1161
+"693","31 Ave & Crescent St",1152
+"694","Nostrand Ave & Myrtle Ave",1148
+"695","W 129 St & Convent Ave",1145
+"696","Lincoln Pl & Classon Ave",1143
+"697","36 Ave & 10 St",1142
+"698","21 St & Hoyt Ave S",1139
+"699","31 St & Thomson Ave",1134
+"700","E 81 St & Park Ave",1133
+"701","24 Ave & 26 St",1107
+"702","Powers St & Olive St",1096
+"703","Irving Ave & Jefferson St",1091
+"704","Knickerbocker Ave & Thames St",1080
+"705","47 Ave & 31 St",1074
+"706","31 St & Northern Blvd",1073
+"707","Crescent St & 30 Ave",1070
+"708","Lexington Ave & E 127 St",1068
+"709","Madison Ave & E 120 St",1067
+"710","Park Ave & St Edwards St",1054
+"711","Crescent St & 34 Ave",1051
+"712","Lexington Ave & E 120 St",1045
+"713","48 Ave & 5 St",1044
+"714","Union St & Bedford Ave",1034
+"715","Dock 72 Way & Market St",1030
+"716","34 St & 35 Ave",1018
+"717","Crescent St & Ditmars Blvd",1005
+"718","12 St & 4 Ave",1003
+"719","Division Ave & Marcy Ave",995
+"720","35 St & 34 Ave",993
+"721","35 Ave & 10 St",977
+"722","Jackson St & Leonard St",976
+"723","Broadway & 12 St",976
+"724","3 Ave & E 100 St",969
+"725","Carroll St & Washington Ave",964
+"726","Irving Ave & DeKalb Ave",951
+"727","Wyckoff St & Bond St",949
+"728","Hart St & Wyckoff Ave",944
+"729","27 Ave & 9 St",942
+"730","5 St & 51 Ave",933
+"731","Commerce St & Van Brunt St",933
+"732","Knickerbocker Ave & George St",926
+"733","Devoe St & Morgan Ave",924
+"734","Stockholm St & Wilson Ave",924
+"735","E 118 St & Park Ave",909
+"736","E 98 St & Park Ave",889
+"737","37 Ave & 35 St",881
+"738","3 Ave & E 112 St",869
+"739","Pacific St & Classon Ave",864
+"740","Newton Rd & 44 St",854
+"741","31 Ave & 14 St",836
+"742","5 St & Market St",833
+"743","10 Hudson Yards",832
+"744","Crescent St & 35 Ave",822
+"745","23 Ave & 27 St",812
+"746","George St & Wilson Ave",810
+"747","30 Ave & 21 St",809
+"748","Richards St & Delavan St",809
+"749","Sigourney St & Columbia St",807
+"750","Bushwick Ave & McKibbin St",774
+"751","Waterbury St & Stagg St",770
+"752","40 Ave & 9 St",763
+"753","28 St & 36 Ave",761
+"754","Columbus Ave & W 103 St",759
+"755","Throop Ave & Myrtle Ave",751
+"756","39 St & 2 Ave - Citi Bike HQ at Industry City",749
+"757","37 St & 24 Ave",745
+"758","21 St & 43 Ave",743
+"759","Crown St & Bedford Ave",728
+"760","Sterling St & Bedford Ave",707
+"761","Albany Ave & Fulton St",696
+"762","Stagg St & Morgan Ave",651
+"763","Pioneer St & Richards St",649
+"764","34 Ave & 21 St",637
+"765","31 St & Hoyt Ave N",637
+"766","Wolcott St & Dwight St",618
+"767","Dwight St & Van Dyke St",615
+"768","Clinton St & Centre St",602
+"769","10 Ave & W 28 St",601
+"770","Morningside Dr & Amsterdam Ave",584
+"771","Columbia St & W 9 St",583
+"772","Henry St & Bay St",540
+"773","Carroll St & Franklin Ave",526
+"774","27 Ave & 4 St",526
+"775","48 Ave & 30 Pl",521
+"776","11 St & 43 Ave",512
+"777","Bushwick Ave & Stagg St",490
+"778","Sullivan Pl & Bedford Ave",478
+"779","Montgomery St & Franklin Ave",475
+"780","21 St & 38 Ave",460
+"781","White St & Johnson Ave",459
+"782","40 Ave & Crescent St",454
+"783","47 Ave & Skillman Ave",452
+"784","Henry St & W 9 St",439
+"785","34 Ave & 13 St",385
+"786","Railroad Ave & Kay Ave",314
+"787","21 St & 36 Ave",306
+"788","10 St & 2 Ave",263
+"789","NYCBS Depot - GOW",262
+"790","Columbia St & Lorraine St",255
+"791","11 St & 35 Ave",231
+"792","Stuyvesant Walk & 1 Av Loop",227
+"793","NYCBS DEPOT - DELANCEY",61
+"794","City Hall",9
+"795","Handlebar @ Gowanus",7
+"796","Washington St",4
+"797","Pershing Field",2
+"798","Sip Ave",2
+"799","6 Ave & W 33 St",1
+"800","Hamilton Park",1
+"801","Heights Elevator",1
+"802","Hoboken Ave at Monmouth St",1
+"803","JCBS Depot",1
+"804","Journal Square",1
+"805","Newport Pkwy",1
+"806","Van Vorst Park",1
