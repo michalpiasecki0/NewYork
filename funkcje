@@ -59,26 +59,14 @@ f2 <- function(data){
     mutate(date = as.Date(starttime),
            weekday = weekdays.Date(date),
            from_to = paste(start.station.name, "-", end.station.name),
-           hour = substr(starttime, start = 12, stop = 13)) %>%
-    select(from_to, weekday, hour)
-  top <- w %>%
-    group_by(from_to) %>%
+           tydzien_weekend = if_else(weekday %in% list("sobota", "niedziela"), 
+                                  "weekend", "tydzień")) %>%
+    select(from_to, tydzien_weekend) %>%
+    group_by(from_to, tydzien_weekend) %>%
     summarise(count = n()) %>%
-    arrange(desc(count))
-  week <- w %>%
-    filter(weekday %in% list("poniedziałek", "wtorek", "środa", "czwartek", "piątek")) %>%
-    group_by(from_to) %>% 
-    summarise(count = n()) %>%
-    arrange(desc(count))
-  weekend <- w %>%
-    filter(weekday %in% list("sobota", "niedziela")) %>%
-    group_by(from_to) %>% 
-    summarise(count = n()) %>%
-    arrange(desc(count))
-  hour <- w %>%
-    group_by(hour, from_to) %>%
-    summarise(count = n()) %>%
-    arrange(hour, desc(count))
+    spread(tydzien_weekend, count) %>%
+    arrange(desc(tydzień), desc(weekend))
+  w
 }
 
 
