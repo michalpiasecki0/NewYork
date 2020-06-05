@@ -169,15 +169,16 @@ f9 <- function(data1, data2){
   pogoda <- data2 %>%
     filter(NAME == "NY CITY CENTRAL PARK, NY US") %>%
     select(DATE, OPADY = PRCP, TMAX, TMIN) %>%
+    mutate(TAV = (TMAX + TMIN)/2,
+           DATE = as.Date(DATE))
   rowery <- data1 %>%
     select(starttime) %>%
     mutate(DATE = as.Date(starttime)) %>%
-    group_by(date) %>%
+    group_by(DATE) %>%
     summarise(count = n()) %>%
-    left_join(pogoda, by = DATE)
+    left_join(pogoda, by = "DATE")
   rowery
 }
-
 
 
 ##------ 10 ------##
