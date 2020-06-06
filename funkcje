@@ -88,7 +88,7 @@ f3 <- function(data){
 
 
   ##------- 4 --------- ##
-  function_4 <- function(dane)
+  f4 <- function(dane)
 {
   pierwsza <- dane %>%
     mutate(data = as.Date(starttime),
@@ -106,7 +106,7 @@ f3 <- function(data){
 
 ##------ 5 ------##
 
-f4 <- function(data){
+f5 <- function(data){
  x <- data %>%
    select(usertype, starttime) %>%
    mutate(date = as.Date(starttime),
