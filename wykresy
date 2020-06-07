@@ -52,13 +52,16 @@ plot6w <- ggplot(df6w, aes(x=hours, y=count)) +
   labs(title="Wypożyczenia w weekendy",
        y='Liczba wypożyczeń', x="Godzina")          
 ##------7-------##
-
+g1 <- ggplot(final, aes(x=hours, y=count),) + 
+  geom_bar(stat = "identity",fill = "#FF6666", color = 'black')
+g1 + scale_x_continuous(breaks = seq(0, 23, by = 1))
+g1 + labs(title="Ilosc jazd w zaleznosci od godziny",
+          subtitle="marzec - czerwiec 2019", y='ilosc', x="godzina")
 ##------8-------##
-graph <- ggplot(polaczone_8,aes(x=daty, y=liczba)) +
-  geom_line( color="black") +
-  geom_point() +
-  theme_ipsum() +
-  ggtitle("Ilosc uzytych rowerów (wedlug BikeID)" )
+graph <- ggplot(polaczone_8,aes(x=wiek, y=ilosc)) +
+  geom_bar(stat = "identity",fill = "#FF6666") +
+  labs(title="ilosc jazd w zaleznosci od wieku",
+       subtitle= "marzec - czerwiec 2019", y = "ilosc", x = "wiek")
 graph
 ##------9-------##
 value1 <- 20000
