@@ -40,6 +40,17 @@ g1 <- ggplot(final, aes(x=hours, y=count),) +
 g1 + scale_x_continuous(breaks = seq(0, 23, by = 1))
 g1 + labs(title="Ilosc jazd w zaleznosci od godziny",
           subtitle="marzec - czerwiec 2019", y='ilosc', x="godzina")
+          
+plot6t <- ggplot(df6t, aes(x=hours, y=count)) + 
+  geom_bar(stat = "identity",fill = "#FF6666", color = 'black') +
+  labs(title="Wypożyczenia w dni powszednie",
+       y='Liczba wypożyczeń', x="Godzina")
+
+
+plot6w <- ggplot(df6w, aes(x=hours, y=count)) + 
+  geom_bar(stat = "identity",fill = "#FF6666", color = 'black') +
+  labs(title="Wypożyczenia w weekendy",
+       y='Liczba wypożyczeń', x="Godzina")          
 ##------7-------##
 
 ##------8-------##
