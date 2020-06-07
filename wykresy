@@ -1,0 +1,84 @@
+library(ggplot2)
+library(ggthemes)
+library(gridExtra)
+library(gtable)
+library(patchwork)
+library(maps)
+library(weathermetrics)
+
+##------1-------##
+plot1 <- tableGrob(head(t1), cols = c("Stacja", "Liczba wypożyczeń"))
+plot1 <- grid.arrange(plot1)
+
+
+##------3-------##
+plot33 <- ggplot(t3, aes(x=weekday, y=av.m)) + 
+  geom_bar(stat = "identity",fill = "#FF6666", color = 'black') +
+  labs(title="Średni czas jazdy w zależności od dnia tygodnia",
+       y='czas w minutach', x="dzień tygodnia")
+t3$weekday <- factor(t3$weekday, levels = c("poniedziałek", "wtorek", "środa",
+                                              "czwartek", "piątek", "sobota", "niedziela"))
+
+##------4-------##
+
+##------5-------##
+plot5 <- ggplot(t5) + 
+  geom_col(mapping = aes(weekday, count, color = usertype)) +
+  theme_clean()
+t52$weekday <- factor(t52$weekday, levels = c("poniedziałek", "wtorek", "środa",
+                                              "czwartek", "piątek", "sobota", "niedziela"))
+                                              
+                                              
+##------6------## 
+
+##------7-------##
+
+##------8-------##
+
+##------9-------##
+value1 <- 20000
+value2 <- 2000
+liczbakolor <- "#69b3a2"
+opadykolor <- rgb(0.2, 0.6, 0.9, 1)
+tempkolor <- "#cc0033"
+
+plot9_opady <- ggplot(t9, aes(x = DATE)) +
+  geom_line( aes(y=count), size=1, color=liczbakolor) + 
+  geom_line( aes(y= OPADY*value1), size=1, color=opadykolor) +
+  
+  scale_y_continuous(
+    name = "Liczba wypożyczeń",
+    sec.axis = sec_axis(~./value1, name="Opady")
+  ) +
+  theme(
+    axis.title.y = element_text(color = liczbakolor, size=13),
+    axis.title.y.right = element_text(color = opadykolor, size=13)
+  ) +
+  labs(title = "Opady a wypożyczenia", x = "data")
+  
+plot9_temp <- ggplot(t9, aes(x = DATE)) +
+  geom_line( aes(y=count), size=1, color=liczbakolor) + 
+  geom_line( aes(y= TAV*value2), size=1, color=tempkolor) +
+  
+  scale_y_continuous(
+    name = "Liczba wypożyczeń",
+    sec.axis = sec_axis(~./value2, name="Temperatura")
+  ) +
+  theme(
+    axis.title.y = element_text(color = liczbakolor, size=13),
+    axis.title.y.right = element_text(color = tempkolor, size=13)
+  ) +
+  labs(title = "Temperatura a wypożyczenia", x = "data")
+
+##------10-------##
+plot10 <- ggplot(t10, aes(x=odl_od_timessquare, y=count)) + 
+  geom_point(
+    color="red",
+    fill="#ff6666",
+    shape=21,
+    alpha=0.45,
+    size=2,
+    stroke = 1
+  ) +
+  labs(title = "Odległość od centrum a liczba wypożyczeń", 
+       x = "Odlełość od Times Square w km", y = "Liczba wypożyczeń")
