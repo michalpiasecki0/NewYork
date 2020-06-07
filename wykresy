@@ -12,12 +12,13 @@ plot1 <- grid.arrange(plot1)
 
 
 ##------3-------##
+t3$weekday <- factor(t3$weekday, levels = c("poniedziałek", "wtorek", "środa",
+                                              "czwartek", "piątek", "sobota", "niedziela"))
 plot33 <- ggplot(t3, aes(x=weekday, y=av.m)) + 
   geom_bar(stat = "identity",fill = "#FF6666", color = 'black') +
   labs(title="Średni czas jazdy w zależności od dnia tygodnia",
        y='czas w minutach', x="dzień tygodnia")
-t3$weekday <- factor(t3$weekday, levels = c("poniedziałek", "wtorek", "środa",
-                                              "czwartek", "piątek", "sobota", "niedziela"))
+
 
 ##------4-------##
 
