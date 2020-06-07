@@ -22,11 +22,11 @@ t3$weekday <- factor(t3$weekday, levels = c("poniedziałek", "wtorek", "środa",
 ##------4-------##
 
 ##------5-------##
-plot5 <- ggplot(t5) + 
-  geom_col(mapping = aes(weekday, count, color = usertype)) +
-  theme_clean()
-t52$weekday <- factor(t52$weekday, levels = c("poniedziałek", "wtorek", "środa",
+df5$weekday <- factor(df5$weekday, levels = c("poniedziałek", "wtorek", "środa",
                                               "czwartek", "piątek", "sobota", "niedziela"))
+plot5 <- ggplot(df5, aes(fill=usertype, y=count, x=weekday)) + 
+  geom_bar(position="stack", stat="identity") +
+  labs(x = "Dzień tygodnia", y = "Liczba wypożyczeń", fill = "Rodzaj użytkownika")
                                               
                                               
 ##------6------## 
