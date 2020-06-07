@@ -107,16 +107,13 @@ f3 <- function(data){
 ##------ 5 ------##
 
 f5 <- function(data){
- x <- data %>%
-   select(usertype, starttime) %>%
-   mutate(date = as.Date(starttime),
-          weekday = weekdays.Date(date)) %>%
-   group_by(weekday, usertype) %>%
-   summarise(count = n()) %>%
-   spread(usertype, count) %>%
-   mutate(Customer.percent = 100 * Customer / (Customer + Subscriber),
-          Subscriber.percent = 100 * Subscriber / (Customer + Subscriber))
- x
+  x <- data %>%
+    select(usertype, starttime) %>%
+    mutate(date = as.Date(starttime),
+           weekday = weekdays.Date(date)) %>%
+    group_by(weekday, usertype) %>%
+    summarise(count = n())
+  x
 }
 
 
