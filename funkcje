@@ -28,48 +28,6 @@ f1 <- function(data){
   return(razem)
 }
 
-CHYBA POPRAWIONE tylko jakos brzydko że niespójnie
-f1 <- function(data){
-  start <- data %>%
-    select(start.station.name) %>%
-    group_by(start.station.name) %>%
-    summarise(count = n()) %>%
-    arrange(desc(count))
-  end <- data %>%
-    select(end.station.name) %>%
-    group_by(end.station.name) %>%
-    summarise(count = n()) %>%
-    arrange(desc(count))
-  razem <- start %>%
-    full_join(end, by = c("start.station.name" = "end.station.name"))
-  razem$count.x <- replace_na(razem$count.x, 0)
-  razem$count.y <- replace_na(razem$count.y, 0)
-  razem <- razem %>%
-    mutate(total = count.x + count.y) %>%
-    arrange(desc(total)) %>%
-    select(station.name = start.station.name, total)
-  return (razem)
-  }
-
-
-##------ 2 ------##
-
-f2 <- function(data){
-  w <- data %>%
-    mutate(date = as.Date(starttime),
-           weekday = weekdays.Date(date),
-           from_to = paste(start.station.name, "-", end.station.name),
-           tydzien_weekend = if_else(weekday %in% list("sobota", "niedziela"), 
-                                  "weekend", "tydzień")) %>%
-    select(from_to, tydzien_weekend) %>%
-    group_by(from_to, tydzien_weekend) %>%
-    summarise(count = n()) %>%
-    spread(tydzien_weekend, count) %>%
-    arrange(desc(tydzień), desc(weekend))
-  w
-}
-
-
 
 
 ##------ 3 ------##
@@ -122,6 +80,32 @@ f5 <- function(data){
 {
   x <- dane %>%
     mutate(hours = substr(starttime,12,13)) %>%
+    group_by(hours) %>%
+    summarise(count = n()) %>%
+    select(hours, count)
+  return(x)
+}
+
+
+f6t <- function(data){
+  x <- data %>%
+    mutate(hours = substr(starttime,12,13),
+           date = as.Date(starttime),
+           weekday = weekdays.Date(date)) %>%
+    filter(weekday != "sobota" & weekday != "niedziela") %>%
+    group_by(hours) %>%
+    summarise(count = n()) %>%
+    select(hours, count)
+  return(x)
+}
+
+
+f6w <- function(data){
+  x <- data %>%
+    mutate(hours = substr(starttime,12,13),
+           date = as.Date(starttime),
+           weekday = weekdays.Date(date)) %>%
+    filter(weekday %in% list("sobota", "niedziela") ) %>%
     group_by(hours) %>%
     summarise(count = n()) %>%
     select(hours, count)
